@@ -1,0 +1,19 @@
+# (Critério 1: Especificação do tipo da entidade Curso)
+type Curso {
+    id: ID!
+    nome: String!
+    descricao: String
+    instrutor: Instrutor
+}
+
+type Instrutor {
+    id: ID!
+    nome: String
+    email: String
+}
+
+# (Critério 2: Especificação de Query para a entidade)
+type Query {
+    listarCursos: [Curso]
+    buscarCursoPorId(id: ID!): Curso
+}
