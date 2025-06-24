@@ -33,8 +33,8 @@ Siga os passos abaixo para configurar e executar a aplicação localmente.
 Primeiramente, clone o repositório do projeto para sua máquina local.
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DO_SEU_PROJETO>
+git clone https://github.com/Caua-Moreto/graphql-cursos-api
+cd https://github.com/Caua-Moreto/graphql-cursos-api
 ```
 
 ### 2. Configure o Banco de Dados
