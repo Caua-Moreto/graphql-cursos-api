@@ -1,4 +1,4 @@
-# (Critério 1: Especificação do tipo da entidade Curso)
+# Criterio 1
 type Curso {
     id: ID!
     nome: String!
@@ -12,8 +12,14 @@ type Instrutor {
     email: String
 }
 
-# (Critério 2: Especificação de Query para a entidade)
+# Criterio 2
 type Query {
     listarCursos: [Curso]
     buscarCursoPorId(id: ID!): Curso
+}
+
+# Mutation
+type Mutation {
+    criarCurso(nome: String!, descricao: String, instrutorId: ID!): Curso
+    criarInstrutor(nome: String!, email: String!): Instrutor
 }
