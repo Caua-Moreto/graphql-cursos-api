@@ -73,8 +73,6 @@ Com a aplicação em execução, você pode testar as queries GraphQL usando a i
 
 ![alt text](./img/image2.png)
 
-*(Anexe um print da interface GraphiQL com a query para listar cursos e o resultado JSON ao lado)*
-
 #### **Exemplo 2: Buscar um curso específico por ID**
 
 Use a query para buscar um curso específico pelo seu ID. Lembre-se de substituir o valor do ID por um que exista no seu banco de dados.
